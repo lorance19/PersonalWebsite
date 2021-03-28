@@ -1,4 +1,7 @@
 import Home from "./home/home"
+import Contact from "./contact/contact"
+import Resume from "./resume/resume"
+
 import NavBar from "./navbar"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -7,7 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavBar/>
-        <Home/>
+        <Resume/>
       </header>
     </div>
   );

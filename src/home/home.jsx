@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Particles from "react-tsparticles";
 import { Fade,Bounce} from "react-awesome-reveal";
 import {Container,Col,Row, Image, Button} from 'react-bootstrap'
 import Webimage from "./webpic.jpg"
@@ -7,7 +6,6 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Home extends Component {
-    state = {  }
     render() { 
         return ( 
         <React.Fragment>
@@ -24,8 +22,8 @@ class Home extends Component {
                   <br/> <br/>
                   </pre>
                   <div className="col-md-12 text-center">
-                    <Button size="lg" variant="outline-secondary" > 
-                      <FontAwesomeIcon icon={faGithub} />
+                    <Button href="https://github.com/lorance19" target="_blank" size="lg" variant="outline-secondary" > 
+                      <FontAwesomeIcon icon={faGithub} color="#615544" />
                     </Button>
                   </div>
                   
