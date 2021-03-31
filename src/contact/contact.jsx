@@ -12,7 +12,6 @@ class Contact extends Component {
                 <Container>
                     <h4 className= "text-center" style={{textAlign: 'left', lineHeight: '2', fontFamily: "sans-serif", color: " #7a6652"}}>
                         Plesae Contact me via the following: </h4>
-                </Container>
                 <div className="col-md-12 text-center">
                     <Button href= "https://www.facebook.com/Lorance.mmpa/" target="_blank" style={{width: "200px", height: "30px", padding: "2px", margin: '10px'}} variant="outline-light" > 
                       <FontAwesomeIcon icon={faFacebookSquare} color="#615544" />
@@ -26,6 +25,8 @@ class Contact extends Component {
                       <FontAwesomeIcon icon={faLinkedin} color="#615544" />
                     </Button>
                   </div>
+                </Container>
+
             </React.Fragment>
 
         );
