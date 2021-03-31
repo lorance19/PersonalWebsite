@@ -1,8 +1,9 @@
 import Home from "./home/home"
 import Contact from "./contact/contact"
 import Resume from "./resume/resume"
-
 import NavBar from "./navbar"
+
+import 'antd/dist/antd.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'antd/dist/antd.css';
 
