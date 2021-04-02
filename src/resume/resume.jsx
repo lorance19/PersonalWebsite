@@ -81,10 +81,25 @@ class Resume extends Component {
                         <Panel header={<h4 style={headerStyle} >Projects</h4>}  key="3" > 
                             <Timeline>
                                 <Timeline.Item color ="#7a6652">
-                                <Card  title="Stonk"  bordered={false}> 
-                                
-                                
-                                </Card>
+                                    <h4>Stonk, the Paper Trading App</h4>
+                                    <p>- Served as the <b>Frontend Developer.</b> <br/>
+                                        -Create the paper trading website called "Stonk" with React and uses the Finnhub API to get realtime stock data. <br/>
+                                        - Allow the user to sign up and trade the paper stocks and show them the profit and loss from their transactions. 
+                                        <a href="https://github.com/cs130-w21/19" style={{color: "#7a6652"}}> here</a>
+                                        <br/>
+                                    </p>
+                                </Timeline.Item>
+
+                                <Timeline.Item color="#7a6652"> 
+                                <h4>Frontend Developer</h4>
+                                <p>- Served as the <b>Frontend Developer.</b> <br/>
+                                        -Create the paper trading website called "Stonk" with React and uses the Finnhub API to get realtime stock data. <br/>
+                                        - Allow the user to sign up and trade the paper stocks and show them the profit and loss from their transactions. 
+                                        <a href="https://github.com/cs130-w21/19" style={{color: "#7a6652"}}> here</a>
+                                        <br/>
+                                    </p>
+
+
                                 </Timeline.Item>
 
                             </Timeline>
