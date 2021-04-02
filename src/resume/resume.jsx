@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Container, Button} from 'react-bootstrap'
 import { Fade,Bounce} from "react-awesome-reveal";
-import {List, Card, Collapse,Tag, Progress, Timeline} from 'antd'
+import {List, Card, Collapse,Tag, Progress, Timeline, Divider} from 'antd'
 
 const { Panel } = Collapse;
 
@@ -81,10 +81,10 @@ class Resume extends Component {
                         <Panel header={<h4 style={headerStyle} >Projects</h4>}  key="3" > 
                             <Timeline>
                                 <Timeline.Item color ="#7a6652">
-                                <Card  title="Stonk"  bordered={false}> 
+                                <h5>Stonk </h5>
+                                <Divider/>
                                 
                                 
-                                </Card>
                                 </Timeline.Item>
 
                             </Timeline>
