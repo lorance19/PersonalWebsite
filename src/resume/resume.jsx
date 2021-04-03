@@ -91,11 +91,36 @@ class Resume extends Component {
                                 </Timeline.Item>
 
                                 <Timeline.Item color="#7a6652"> 
-                                <h4>Frontend Developer</h4>
+                                <h4>Travel Planner</h4>
                                 <p>- Served as the <b>Frontend Developer.</b> <br/>
                                         -Create the paper trading website called "Stonk" with React and uses the Finnhub API to get realtime stock data. <br/>
                                         - Allow the user to sign up and trade the paper stocks and show them the profit and loss from their transactions. 
                                         <a href="https://github.com/cs130-w21/19" style={{color: "#7a6652"}}> here</a>
+                                        <br/>
+                                    </p>
+
+
+                                </Timeline.Item>
+
+                                <Timeline.Item color="#7a6652"> 
+                                <h4>Predicting Taxi Ride Duration</h4>
+                                <p>- Use <b>Python</b> and  <b>Machine Learning</b> to predict the taxi ride duration in New York City. <br/>
+                                        -Create the design matrix of the model and predict the trip duration using location, end location, trip distance, time of day, and day of the week.<br/>
+                                        - Using sklearn to process data and fit linear regression models and embedding linear regression as a component in a more complex model.
+                                        <a href="https://github.com/lorance19/New-York-Traffic/blob/main/proj3/proj3.ipynb" style={{color: "#7a6652"}}> here</a>
+                                        <br/>
+                                    </p>
+
+
+                                </Timeline.Item>
+
+
+                                <Timeline.Item color="#7a6652"> 
+                                <h4>Heart Disease Prediction</h4>
+                                <p>- Use <b>Python</b> ,  <b>Machine Learning</b> and UCI Heart Disease dataset to predict the the presence of Heart disease. <br/>
+                                        - Use different learning models (SVM, K-Nearest Neighbor, Logistic Regression) to get the highest accuracy and precision score.<br/>
+                                        - Using sklearn to process data and fit linear regression models and embedding linear regression as a component in a more complex model.
+                                        <a href="https://github.com/lorance19/heart-disease/tree/main/cs188%20Project%202" style={{color: "#7a6652"}}> here</a>
                                         <br/>
                                     </p>
 
