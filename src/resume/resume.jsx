@@ -91,16 +91,16 @@ class Resume extends Component {
                                 </Timeline.Item>
 
                                 <Timeline.Item color="#7a6652"> 
-                                <h4>Frontend Developer</h4>
+                                <h4>Travel Planner</h4>
                                 <p>- Served as the <b>Frontend Developer.</b> <br/>
-                                        -Create the paper trading website called "Stonk" with React and uses the Finnhub API to get realtime stock data. <br/>
-                                        - Allow the user to sign up and trade the paper stocks and show them the profit and loss from their transactions. 
-                                        <a href="https://github.com/cs130-w21/19" style={{color: "#7a6652"}}> here</a>
+                                        -Create the travelling assistant app in which user can enter the lists of destination and the app will generate the itinerary for the user. <br/>
+                                        - Allow the user to sign up and save the locations that they have enter for them.
+                                        <a href="https://github.com/scalableinternetservicesarchive/travelPlanner" style={{color: "#7a6652"}}> here</a>
                                         <br/>
-                                    </p>
-
-
+                                </p>
                                 </Timeline.Item>
+
+                                
 
                             </Timeline>
                         </Panel>
