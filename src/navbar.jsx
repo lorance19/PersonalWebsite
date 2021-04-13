@@ -8,10 +8,10 @@ class NavBar extends Component {
         return ( 
             <Navbar bg="transparent" variant="light" className="justify-content-lg-center ">
                 <Nav calssName="m-5">
-                    <Nav.Link  href="#home">Home</Nav.Link>
-                    <Nav.Link  href="#about">About</Nav.Link>
-                    <Nav.Link  href="#contact">Contact</Nav.Link>
-                    <Nav.Link  href="#resume">Resume</Nav.Link>
+                    <Nav.Link  href="/home">Home</Nav.Link>
+                    {/* <Nav.Link  href="/about">About</Nav.Link> */}
+                    <Nav.Link  href="/contact">Contact</Nav.Link>
+                    <Nav.Link  href="/resume">Resume</Nav.Link>
 
                 </Nav>
             
