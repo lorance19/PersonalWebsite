@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Fade,Bounce} from "react-awesome-reveal";
+import { Fade} from "react-awesome-reveal";
 import {Container,Col,Row, Image, Button} from 'react-bootstrap'
 import Webimage from "./webpic.jpg"
 import { faGithub } from "@fortawesome/free-brands-svg-icons";

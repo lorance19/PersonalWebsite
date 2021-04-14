@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import {Container, Button} from 'react-bootstrap'
-import { Fade,Bounce} from "react-awesome-reveal";
-import {List, Card, Collapse,Tag, Progress, Timeline, Divider} from 'antd'
+import {Container} from 'react-bootstrap'
+import { Fade} from "react-awesome-reveal";
+import {List, Card, Collapse,Tag, Progress, Timeline} from 'antd'
 
 const { Panel } = Collapse;
 

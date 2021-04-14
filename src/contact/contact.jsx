@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Container,Col,Row, Image, Button} from 'react-bootstrap'
+import {Container, Button} from 'react-bootstrap'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookSquare,faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'

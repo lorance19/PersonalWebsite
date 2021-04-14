@@ -16,11 +16,10 @@ function App() {
         <NavBar/>
         <BrowserRouter>
         <Switch>
-
+        <Route path= "/" component={Home} />
           <Route path= "/home" component={Home} />
           <Route path= "/contact" component={Contact}/>
           <Route path= "/resume" component={Resume} />
-          <Route path= "/" component={Home} />
         </Switch>
         </BrowserRouter>
       </header>
