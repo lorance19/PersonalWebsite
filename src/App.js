@@ -20,6 +20,7 @@ function App() {
           <Route path= "/home" component={Home} />
           <Route path= "/contact" component={Contact}/>
           <Route path= "/resume" component={Resume} />
+          <Route path= "/" component={Home} />
         </Switch>
         </BrowserRouter>
       </header>
